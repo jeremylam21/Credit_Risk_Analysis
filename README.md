@@ -5,22 +5,29 @@ The purpose of this analysis was to train a different unsupervised machine learn
 
 ## Results
 Here are the results of all 6 models created:
-* ###Naive Random Oversampling
+* Naive Random Oversampling
 
+![alt](pngs/Naive.png)
 
-* ###SMOTE Oversampling
+* SMOTE Oversampling
 
+![alt](pngs/Smote.png)
 
-* ###Undersampled
+* Undersampling
 
+![alt](pngs/Under.png)
 
-* ###SMOTEENN
+* SMOTEENN
 
+![alt](pngs/Smoteenn.png)
 
-* ###Balanced Random Forest
+* Balanced Random Forest
 
+![alt](pngs/randomforest.png)
 
-* ###Easy Ensemble ADABooster
+* Easy Ensemble ADABooster
+
+![alt](pngs/adabooster.png)
 
 ## Summary
 Out of all the sampling/ensemble methods, we see that using the Easy Ensemble ADABooster classifier gives use the highest accuracy and f1 scores - as such I would recommend using this model. 
